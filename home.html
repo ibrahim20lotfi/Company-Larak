@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="LARAK CO." content="Larak General Contracting. +964 751 111 1111 . info@larakgroup.org . Italian Village Road 1,Erbil.">
+   <title>LARAK</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="home.css">
+
+   <link rel="stylesheet" href="intro.css">
+
+</head>
+<body>
+
+      
+         <video id="intro" autoplay  muted > 
+      <source src="LarakIntro1.mp4">
+   </video>
+      
+     
+   <script src="intro.js"></script> 
+
+    <!-- header section starts  -->
+
+<header class="header">
+
+   <a   href="#" class="logo"><img style=" width: 150px; height: 70px;" src="images/GreyLarak.png" alt=""></a>
+
+   <nav class="navbar">
+      <ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#projects">Projects</a></li>
+<li> <a href="#contact">Contact</a></li>
+
+      </ul>
+   </nav>
+
+   <div class="icons">
+      <div id="menu-btn" class="fas fa-bars"></div>
+       <div id="info-btn" class="fas fa-info-circle"></div> 
+      
+   </div>
+
+
+</header>
+
+<div class="contact-info">
+
+   <div id="close-contact-info" class="fas fa-times"></div>
+
+   <div class="info">
+      <i class="fas fa-phone"></i>
+      <h3>Phone</h3>
+      <p>+964 751 111 1111</p>
+      
+   </div>
+
+   <div class="info">
+      <i class="fas fa-envelope"></i>
+      <h3>email address</h3>
+      <p>info@larakgroup.com</p>
+      
+   </div>
+
+   <div class="info">
+      <i class="fas fa-map-marker-alt"></i>
+      <h3>Adress</h3>
+      <p>Iraq - Erbil - Italian Village Road 1</p>
+   </div>
+
+   <div class="share">
+      <a href="#" class="fab fa-facebook-f"></a>
+      <a href="#" class="fab fa-twitter"></a>
+      <a href="#" class="fab fa-instagram"></a>
+      <a href="#" class="fab fa-linkedin"></a>
+   </div>
+
+</div>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+         <section class="swiper-slide slide" style="background: url(images/pexels-photomix-company-224924.jpg) no-repeat;">
+            <div class="content">
+               <h3>make dreams come true</h3>
+               <p>Larak Co. manages all aspects of a building projects, including design, planning, materials, and labor, We ensure that the project is completed on time, within budget, and meets safety and quality standards.</p>
+               <a href="#about" class="btn">get started</a> 
+
+               
+               
+            </div>
+         </section>
+
+         <section class="swiper-slide slide" style="background: url(images/Firstpic.jpg) no-repeat;">
+            <div class="content">
+<h3>we offer best services</h3>
+               <p>Larak Co. offers a range of services, including building, renovation, and design, experienced professionals use high-quality materials and modern technology.</p>
+
+               
+            </div>
+         </section>
+
+         <section class="swiper-slide slide" style="background: url(images/company-pic-2.jpg) no-repeat;">
+            
+            <div class="content">
+               <h3>turning vision into value</h3>
+               <p>Larak Co. has a strong reputation for providing excellent costumer service and communication  throughout the construction process.</p>
+               
+            </div>
+         </section>
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+   </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about" >
+
+   <h1 class="heading" data-aos="fade-right" data-aos-duration="1000"> about us </h1>
+
+   <div class="row">
+
+      <div class="video">
+         <video src="images/constructions site time.mp4" loop muted autoplay data-aos="fade-right" data-aos-duration="1000"></video>
+      </div>
+
+      <div class="content">
+         <h3 data-aos="fade-left" data-aos-duration="1000">why choose Larak Co. ?</h3>
+         <p data-aos="fade-left" data-aos-duration="1000">Founded in 2009, Baghdad-Iraq based Larak Group for Construction, General trading,
+            Contracting and transportations, anchored by loyal employees who are dedicated to
+            providing superior service and grounded in the philosophy that honesty and integrity
+            are as important as the bottom line, Larak Group has enjoyed an impeccable reputation
+            for over 10 years. We have never failed to complete a project and have never had a bond
+            claim. Schedules and budgets are meant to be kept, and we strive every day to do so.
+            “Safety First“ for all employees is embedded in our company culture from top to bottom,
+            one example is the completion of a major project for the Department of Energy, which
+            required men/hours to construct,
+            without a single lost in time or any accidents. Additionally, as a result of our eorts to
+            produce only the “best projects</p>
+         
+      </div>
+
+   </div>
+
+   <div class="box-container">
+
+      
+
+      <div class="box">
+         <h3 id="count-number">0</h3>
+         
+            <script>
+            const countNumber = document.getElementById('count-number');
+let count = 0;
+
+const options = {
+rootMargin: '0px',
+threshold: 0.5
+}
+
+const observer = new IntersectionObserver(function(entries, observer) {
+entries.forEach(entry => {
+   if(entry.isIntersecting) {
+      const interval = setInterval(() => {
+   if(count < 159) {
+      count++;
+         countNumber.innerHTML = count;
+      } else {
+         clearInterval(interval);
+      }
+      }, 10);
+   }
+});
+}, options);
+
+observer.observe(countNumber);
+         </script>
+         
+         <p>project completed</p>
+      </div>
+
+      <div class="box">
+         <h3 id="count-numberr">0</h3>
+         <script>
+            
+            const countNumberr = document.getElementById('count-numberr');
+let countt = 0;
+
+const optionss = {
+rootMargin: '0px',
+threshold: 0.5
+}
+
+const observerr = new IntersectionObserver(function(entries, observer) {
+entries.forEach(entry => {
+   if(entry.isIntersecting) {
+      const interval = setInterval(() => {
+   if(countt < 200) {
+      countt++;
+         countNumberr.innerHTML = countt;
+      } else {
+         clearInterval(interval);
+      }
+      }, 10);
+   }
+});
+}, optionss);
+
+observerr.observe(countNumberr);
+         </script>
+         
+         <p>workers employed</p>
+      </div>
+
+      
+
+   </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services" >
+
+   <h1 class="heading"> our services </h1>
+   <h1 class="heading-service">GENERAL CONTRACTING</h1>
+
+   <div class="box-container" data-aos="fade-up" data-aos-duration="1000">
+         <div class="box" >
+         <img src="images/service-5.png" alt="">
+         <h3>Civil Contracting</h3>
+         <p>roads, railways, buildings, water reservoirs, subdivisions, airports, bridges,
+            sewer systems,
+            tunnels, dams, steel structure, prefabricated buildings and hospital construction.</p>
+      </div>
+
+
+   <div class="box" >
+         <img src="images/service-7.png" alt="">
+         <h3>Mechanical Contracting</h3>
+         <p>heating and cooling systems, refrigeration, piping, plumbing, medical
+            gas systems and ventilation system, HVAC system.</p>
+      </div>
+
+
+   <div class="box" >
+         <img src="images/service-2.png" alt="">
+         <h3>Service Contracting</h3>
+         <p>like Supplying raw materials (Fuel, gas, bulk water, drinking water, oxygen….
+            etc.), Supporting services (labor workers, cleaners, generator operator, Food and beverages…etc.)</p>
+      </div>
+      
+      
+         </div>
+         <br><br>
+         <h1 class="heading-service">GENERAL TRANSPORTATION</h1>
+
+         <div class="box-container" data-aos="fade-up" data-aos-duration="1000">
+            <div class="box">
+         <img src="images/undraw_aircraft_re_m05i-1.svg" alt="">
+         <h3>Air Freight Services</h3>
+         <p>Air Freight Services offers quick and efficient transportation of goods by air. With a global network of airlines, air freight companies can handle shipments of all sizes and types. </p>
+      </div> 
+
+         <div class="box">
+         <img src="images/service-4.png" alt="">
+         <h3>Road Freight Services</h3>
+         <p>Road Freight Services provide cost-effective and reliable transportation of goods bt road. They are suitable for both domesticand international shipments.</p>
+      </div>
+
+
+
+         <div class="box">
+         <img width="150px" height="200px" src="images/Ship.jpeg" alt="">
+         <h3>Sea Freight Services</h3>
+         <p>Sea Freight Services offer a cost effective and environmentally friendly way to transport large quantities of goods across long distances by sea.</p>
+      </div>
+
+
+
+      <!-- <div class="box">
+         <img src="images/service-1.png" alt="">
+         <h3>General Contracting</h3>
+         <p>WE provide support at all levels and phases of construction-form pre-planning and development, to scheduling, budget managment.</p>
+      </div> -->
+
+
+      
+
+      
+
+      
+
+
+      
+         </div>
+
+         <br><br>
+         <h1 class="heading-service">GENERAL TRADING</h1>   
+
+         <div class="box-container" style="width: 336px;" data-aos="fade-up" data-aos-duration="1000">
+         <div class="box" >
+         <img src="images/service-8.png" alt="">
+         <h3>General Trading</h3>
+         <p>Export, import or trading of goods or products, material management, contract management,
+            logistics, procurement and supply chain management.</p>
+      </div>
+         </div>
+         
+
+      
+      
+   </div>   
+
+</section>
+
+<!-- services section ends -->
+
+<!-- projects section starts  -->
+
+<section class="projects" id="projects">
+
+   <h1 class="heading">Featured Work </h1>
+
+   <div class="box-container">
+
+      <a href="images/Work1.jpg" class="box" data-aos="fade-right" data-aos-duration="1000">
+         <div class="image">
+            <img src="images/Work1.jpg" alt="">
+         </div>
+         <div class="content">
+            <div class="info">
+               <h3>Construction Design</h3>
+               
+            </div>
+            <i class="fas fa-plus"></i>
+         </div>
+      </a>
+
+      <a href="images/Work2.jpg" class="box" data-aos="fade-down" data-aos-duration="1000">
+         <div class="image">
+            <img src="images/Work2.jpg" alt="">
+         </div>
+         <div class="content">
+            <div class="info">
+               <h3>Construction Design</h3>
+               
+            </div>
+            <i class="fas fa-plus"></i>
+         </div>
+      </a>
+
+      <a href="images/Work3.jpg" class="box" data-aos="fade-left" data-aos-duration="1000">
+         <div class="image">
+            <img src="images/Work3.jpg" alt="">
+         </div>
+         <div class="content">
+            <div class="info">
+               <h3>Construction Design</h3>
+               
+            </div>
+            <i class="fas fa-plus"></i>
+         </div>
+      </a>
+
+      <a href="images/Work4.jpg" class="box" data-aos="fade-right" data-aos-duration="1000">
+         <div class="image">
+            <img src="images/Work4.jpg" alt="">
+         </div>
+         <div class="content">
+            <div class="info">
+               <h3>Construction Design</h3>
+               
+            </div>
+            <i class="fas fa-plus"></i>
+         </div>
+      </a>
+
+      <a href="images/Work5.jpg" class="box" data-aos="fade-up" data-aos-duration="1000">
+         <div class="image">
+            <img src="images/Work5.jpg" alt="">
+         </div>
+         <div class="content">
+            <div class="info">
+               <h3>Construction Design</h3>
+               
+            </div>
+            <i class="fas fa-plus"></i>
+         </div>
+      </a>
+
+      <a href="images/Work6.jpg" class="box" data-aos="fade-left" data-aos-duration="1000">
+         <div class="image">
+            <img src="images/Work6.jpg" alt="">
+         </div>
+         <div class="content">
+            <div class="info">
+               <h3>Construction Design</h3>
+               
+            </div>
+            <i class="fas fa-plus"></i>
+         </div>
+      </a>
+
+   </div>
+
+</section>
+
+
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact" >
+
+   <h1 class="heading"> contact us </h1>
+
+   <div class="row" data-aos="fade-up" data-aos-duration="1000">
+
+      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14668.22067150367!2d43.96761757911108!3d36.18755033129942!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4007237b57467b6f%3A0x1022738821290bfe!2sI.S.M.S.Co.Ltd.!5e0!3m2!1sen!2s!4v1686154850965!5m2!1sen!2s" width="400" height="510" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+      <form action="https://formspree.io/f/xnqykvwd" method="post">
+         <h3>get in touch</h3>
+         <input type="text" name="name" placeholder="name" class="box" required>
+         <input type="email" name="email" placeholder="email" class="box" required>
+         <input type="tel" name="number" placeholder="phone" class="box" required>
+         <textarea  name="message" placeholder="message" class="box" id="" cols="30" rows="10" required></textarea>
+         <input type="submit" value="send message" class="btn">
+      </form>
+
+
+   </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<section class="footer">
+
+   <div class="links">
+      <a class="btn" href="#home">home</a>
+      <a class="btn" href="#about">about</a>
+      <a class="btn" href="#services">services</a>
+      <a class="btn" href="#projects">projects</a>
+      <a class="btn" href="#contact">contact</a>
+   </div>
+
+   <!-- <div class="credit"> created by <span>EN.Khalil & EN.Ibrahim</span> </div> -->
+
+</section>
+
+<!-- footer section ends -->
+
+<script>
+document.addEventListener('scroll', () =>{
+const header = document.querySelector('header') ;
+if(window.scrollY > 0) {
+   header.classList.add('scrolled') ;
+}else{
+header.classList.remove('scrolled') ;
+
+}
+
+})
+
+
+
+</script>
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+   AOS.init();
+</script>
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+ <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="home.js"></script>
+
+ <script>
+
+lightGallery(document.querySelector('.projects .box-container'));
+
+</script>
+
+<script>
+   for(video of document.getElementsByTagName("video")) {
+      video.setAttribute("playsinline","");
+      video.setAttribute("muted","");
+      
+      video.play();
+   }
+</script>
+<script>
+   var vid = document.getElementById("preloader-vid");
+   vid.playbackRate = 1.5;
+</script>
+
+
+</body>
+</html>
